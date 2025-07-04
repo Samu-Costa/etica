@@ -62,8 +62,17 @@ li{
     object-fit: cover;
     object-position: top;
     margin: 3rem;
-    box-shadow: 1rem 2rem 2rem -0.5rem rgba(20, 1, 65,0.5); 
-       
+    box-shadow: 1rem 2rem 2rem -0.5rem rgba(20, 1, 65,0.5);       
+}
+
+.image-line-cent{
+    border-radius: 4rem;
+    width: 90%;
+    max-height: 25rem;
+    object-fit: cover;
+    object-position: bottom;
+    margin: 3rem;
+    box-shadow: 1rem 2rem 2rem -0.5rem rgba(20, 1, 65,0.5);
 }
 
 .link{
