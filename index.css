@@ -54,6 +54,12 @@ li{
     transform: rotate(-2deg);
     box-shadow: 1rem 2rem 2rem -0.5rem rgba(20, 1, 65,0.5);
 }
+.imagem-natural {
+    border-radius: 1rem;
+    display: block;             
+    max-width: 100%;           
+    height: auto;            
+}
 
 .image-line{
     border-radius: 4rem;
@@ -75,6 +81,13 @@ li{
     box-shadow: 1rem 2rem 2rem -0.5rem rgba(20, 1, 65,0.5);
 }
 
+.image-wrapper {
+  display: flex;          
+  justify-content: center;   
+  align-items: center;        
+  width: 100%;               
+}
+
 .link{
     margin-top: 2rem;
     font-size: 2rem;
@@ -82,16 +95,16 @@ li{
 }
 
 .link_referencias{
-    text-decoration: underline;  /* Mostra que é link clicável */
-    background: none;            /* Remove o fundo do botão */
-    color: var(--color-white);   /* Mantém cor branca ou ajuste se quiser */
-    display: inline;             /* Para ficar dentro do fluxo do <p> */
-    padding: 0;                  /* Remove padding de botão */
-    margin: 0;                   /* Remove margem de botão */
-    text-align: left;            /* Alinha à esquerda */
-    width: auto;                 /* Largura automática */
-    border-radius: 0;            /* Sem borda arredondada */
-    font-weight: normal;         /* Peso de fonte normal */
+    text-decoration: underline;  
+    background: none;          
+    color: var(--color-white);   
+    display: inline;           
+    padding: 0;                 
+    margin: 0;               
+    text-align: left;          
+    width: auto;                
+    border-radius: 0;         
+    font-weight: normal;      
 }
 
 a{
