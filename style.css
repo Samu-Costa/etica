@@ -24,6 +24,7 @@ a {
     background: linear-gradient(rgba(0,0,0,0.1), var(--color-background));
     position: relative;
     min-height: 100vh;
+    gap: 10rem;
 }
 
 .hero__background {
